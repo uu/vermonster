@@ -17,7 +17,5 @@ Gem::Specification.new do |gem|
   gem.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
   gem.require_paths = ["lib"]
 
-  gem.add_dependency 'faraday', '~> 0.8.1'
-  gem.add_dependency 'faraday_middleware', '~> 0.8.8'
-  gem.add_dependency 'hashie', '~> 1.2.0'
+  
 end
